@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="css/app.css">
     <title>Document</title>
 </head>
-@include('partials/header');
-@include('partials.hero');
+@include('partials/header')
+@include('partials.hero')
+@include('partials.banner')
 
 <body>
 

@@ -63,6 +63,40 @@ li {
   padding: 10px;
 }
 
+.banner {
+  width: 100%;
+  height: 15vh;
+  background-color: #0281f7;
+}
+
+.banner .container-banner {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.banner .container-banner .banner-card {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.banner .container-banner .banner-card img {
+  height: 40%;
+  margin-right: 10px;
+}
+
+.banner .container-banner .banner-card a {
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
