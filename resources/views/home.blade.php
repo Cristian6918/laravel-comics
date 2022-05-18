@@ -17,10 +17,13 @@
         <div clasS='container'>
             @foreach ($comics as $comic)
                 <div class='film-card'>
-                    <div class="image-container">
-                        <img class="film-img" src='{{ $comic['thumb'] }}' alt=''>
-                    </div>
-                    <div class="title-container">{{ $comic['title'] }}</div>
+                    <a href="">
+                        <div class="image-container">
+                            <img class="film-img" src='{{ $comic['thumb'] }}' alt=''>
+                        </div>
+                        <div class="title-container">{{ $comic['title'] }}
+                        </div>
+                    </a>
                 </div>
             @endforeach
 
@@ -30,14 +33,6 @@
         </div>
         <button>Load More</button>
     </div>
-
-
-
-
-
-
-
-
     @include('partials.banner')
 </main>
 <footer>
