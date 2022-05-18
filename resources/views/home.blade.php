@@ -9,6 +9,7 @@
     <title>Document</title>
 </head>
 @include('partials/header');
+@include('partials.hero');
 
 <body>
 

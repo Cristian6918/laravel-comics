@@ -43,6 +43,26 @@ li {
   color: #0281f7;
 }
 
+.jumbtron {
+  width: 100%;
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  height: 40vh;
+  background-size: cover;
+  position: relative;
+}
+
+.series-label {
+  height: 4vh;
+  font-size: 1.2rem;
+  width: 15%;
+  position: absolute;
+  left: 10%;
+  bottom: -2vh;
+  background-color: #0281f7;
+  color: white;
+  padding: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
