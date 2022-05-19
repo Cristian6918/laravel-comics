@@ -20,7 +20,7 @@
     color: white;
     text-align: left;
     cursor: pointer;
-    transition: transform 0.5s;
+    transition: transform 0.9s;
     a{
         text-decoration:none;
         color:white;
@@ -28,9 +28,13 @@
 
 
     &:hover {
-        transform: scale(1.3);
+        transform: scale(1.2);
         z-index: 1;
 
+        .image-container{
+            border: 1px solid $primary-blue;
+            box-shadow: 0px 0px 15px 4px $primary-blue
+        }
 
 
     }
@@ -43,6 +47,10 @@
         aspect-ratio: 1;
         position: relative;
         overflow: hidden;
+        border:1px solid white;
+        box-shadow: 0px 0px 15px 4px rgba(255, 255, 255, 0.315);
+
+
 
 
 
@@ -110,7 +118,8 @@ button {
     cursor: pointer;
 
     &:active {
-        box-shadow: 0px 2px 5px 5px $primary-blue;
+
+        box-shadow: 0px 0px 15px 4px rgba(255, 255, 255, 0.315);
     }
 }
 

@@ -17,10 +17,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $comics = config("comics");
-    return view('home', ['comics' => $comics]);
+    $menu = config("menuList");
+    return view('home', ['comics' => $comics], ['menu' => $menu]);
 });
 
 Route::get('/details/{id}', function ($id) {
+    $menu = config("menuList");
     $comics = config("comics");
-    return view('details', ['comics' => $comics[$id]]);
+    return view('details', ['comics' => $comics[$id]], ['menu' => $menu]);
 });

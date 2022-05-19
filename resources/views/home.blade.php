@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/app.css">
     <title>Document</title>
 </head>
-@include('partials/header')
+@include('partials/header', $menu)
 <main>
     @include('partials.hero')
 
