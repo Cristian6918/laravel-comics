@@ -13,7 +13,7 @@
     @include('partials.hero')
 
     <div class="film-container">
-
+        <div class="series-label">CURRENT SERIES</div>
         <div clasS='container'>
             @foreach ($comics as $comic)
                 <div class='film-card'>

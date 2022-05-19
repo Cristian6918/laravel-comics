@@ -4,6 +4,7 @@
 @import 'hero.scss';
 @import 'banner.scss';
 @import 'footer.scss';
+@import 'detailsMain.scss';
 
 *{
     margin:0;
@@ -68,6 +69,20 @@
     background-color: #1C1C1C;
     padding: 3em;
     text-align: center;
+    position:relative;
+
+    .series-label {
+            height: 4vh;
+            font-size: 1.2rem;
+            width: 15%;
+            position: absolute;
+            left: 10%;
+            top: -2vh;
+            background-color: $primary-blue;
+            color: white;
+            padding: 10px;
+
+        }
 
 
     .container {
@@ -94,7 +109,7 @@ button {
     cursor: pointer;
 
     &:active {
-        box-shadow: 0px 2px 5px 5px#0e5ca5;
+        box-shadow: 0px 2px 5px 5px $primary-blue;
     }
 }
 

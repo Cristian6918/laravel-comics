@@ -21,5 +21,6 @@ Route::get('/', function () {
 });
 
 Route::get('/details', function () {
-    return view('details');
+    $comics = config("comics");
+    return view('details', compact("comics"));
 });
