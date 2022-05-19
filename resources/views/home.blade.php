@@ -17,7 +17,7 @@
         <div clasS='container'>
             @foreach ($comics as $comic)
                 <div class='film-card'>
-                    <a href="">
+                    <a href="details">
                         <div class="image-container">
                             <img class="film-img" src='{{ $comic['thumb'] }}' alt=''>
                         </div>
