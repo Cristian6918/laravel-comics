@@ -18,12 +18,14 @@
         top:-28vh;
         left:15%;
         width:200px;
-        height:30vh;
-        background-color: red;
-        border:1px solid white;
+        padding:0;
+
+
 
         img{
             width:100%;
+            border:1px solid white;
+
         }
     }
 
@@ -35,6 +37,7 @@
     .container{
         padding:3vh 0vh;
         display:flex;
+        justify-content: space-between;
 
         .content{
             width:70%;
@@ -76,7 +79,8 @@
             }
         }
         .ad{
-            width:30%;
+            width:25%;
+            // background-image: url('public\assets\images\adv.jpg);
 
 
             img{
@@ -144,6 +148,28 @@
             display:flex;
             border-right:1px solid #e3e3e3;
             justify-content: space-between;
+            text-decoration:none;
+
+            &:hover > span{
+                color:$primary-blue;
+            }
+
+            &:hover > #img-div1{
+                background: url('assets/img/cta-icons.png') 0 -37px;
+
+            }
+              &:hover > #img-div2{
+                background: url('assets/img/cta-icons.png') -37px -37px;
+
+            }
+              &:hover > #img-div3{
+                background: url('assets/img/cta-icons.png') -74px -37px;
+
+            }
+              &:hover > #img-div4{
+                background: url('assets/img/cta-icons.png') -111px -37px;
+
+            }
 
             span{
                 color:#9e9e9e;
@@ -155,10 +181,6 @@
                 aspect-ratio:1;
                 background:url('assets/img/cta-icons.png') 0 0;
 
-                &:hover{
-                    background: url('assets/img/cta-icons.png') 0 -37px;
-
-                }
 
             }
             #img-div2{
@@ -166,10 +188,7 @@
                 aspect-ratio:1;
                 background:url('assets/img/cta-icons.png') -37px 0;
 
-                &:hover {
-                        background: url('assets/img/cta-icons.png') -37px -37px;
 
-                    }
 
             }
             #img-div3{
@@ -177,10 +196,6 @@
                 aspect-ratio:1;
                 background:url('assets/img/cta-icons.png') -74px 0;
 
-                &:hover {
-                        background: url('assets/img/cta-icons.png') -74px -37px;
-
-                    }
 
             }
             #img-div4{
@@ -188,10 +203,7 @@
                 aspect-ratio:1;
                 background:url('assets/img/cta-icons.png') -111px 0;
 
-                &:hover {
-                        background: url('assets/img/cta-icons.png') -111px -37px;
 
-                    }
 
             }
 

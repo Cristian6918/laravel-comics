@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="/css/app.css">
     <title>Document</title>
 </head>
 @include('partials/header')
@@ -15,13 +15,14 @@
     <div class="film-container">
         <div class="series-label">CURRENT SERIES</div>
         <div clasS='container'>
-            @foreach ($comics as $comic)
+            @foreach ($comics as $index => $comic)
                 <div class='film-card'>
-                    <a href="details">
+                    <a href="details/{{ $index }}">
                         <div class="image-container">
                             <img class="film-img" src='{{ $comic['thumb'] }}' alt=''>
                         </div>
-                        <div class="title-container">{{ $comic['title'] }}
+                        <div class="title-container">
+                            {{ $comic['title'] }}
                         </div>
                     </a>
                 </div>

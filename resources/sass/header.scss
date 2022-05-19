@@ -21,10 +21,14 @@ li{
         align-items: center;
         margin: auto;
 
-        img {
+        .dc-logo{
             height: 80%;
-            margin-right: auto;
-        }
+                margin-right: auto;
+            img {
+                height: 100%;
+
+            }}
+
 
         .ct-link {
             height: 100%;

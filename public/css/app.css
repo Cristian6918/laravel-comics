@@ -15,9 +15,13 @@ li {
   margin: auto;
 }
 
-.ct-header .container img {
+.ct-header .container .dc-logo {
   height: 80%;
   margin-right: auto;
+}
+
+.ct-header .container .dc-logo img {
+  height: 100%;
 }
 
 .ct-header .container .ct-link {
@@ -195,13 +199,12 @@ li {
   top: -28vh;
   left: 15%;
   width: 200px;
-  height: 30vh;
-  background-color: red;
-  border: 1px solid white;
+  padding: 0;
 }
 
 .main-top .img-container img {
   width: 100%;
+  border: 1px solid white;
 }
 
 .main-content {
@@ -211,6 +214,7 @@ li {
 .main-content .container {
   padding: 3vh 0vh;
   display: flex;
+  justify-content: space-between;
 }
 
 .main-content .container .content {
@@ -253,7 +257,7 @@ li {
 }
 
 .main-content .container .ad {
-  width: 30%;
+  width: 25%;
 }
 
 .main-content .container .ad img {
@@ -320,6 +324,27 @@ li {
   display: flex;
   border-right: 1px solid #e3e3e3;
   justify-content: space-between;
+  text-decoration: none;
+}
+
+.details-banner .container .section-banner:hover > span {
+  color: #0281f7;
+}
+
+.details-banner .container .section-banner:hover > #img-div1 {
+  background: url(/images/cta-icons.png?66ce11d0fe1c08d1276451a49fdd1bb9) 0 -37px;
+}
+
+.details-banner .container .section-banner:hover > #img-div2 {
+  background: url(/images/cta-icons.png?66ce11d0fe1c08d1276451a49fdd1bb9) -37px -37px;
+}
+
+.details-banner .container .section-banner:hover > #img-div3 {
+  background: url(/images/cta-icons.png?66ce11d0fe1c08d1276451a49fdd1bb9) -74px -37px;
+}
+
+.details-banner .container .section-banner:hover > #img-div4 {
+  background: url(/images/cta-icons.png?66ce11d0fe1c08d1276451a49fdd1bb9) -111px -37px;
 }
 
 .details-banner .container .section-banner span {
@@ -334,18 +359,10 @@ li {
   background: url(/images/cta-icons.png?66ce11d0fe1c08d1276451a49fdd1bb9) 0 0;
 }
 
-.details-banner .container .section-banner #img-div1:hover {
-  background: url(/images/cta-icons.png?66ce11d0fe1c08d1276451a49fdd1bb9) 0 -37px;
-}
-
 .details-banner .container .section-banner #img-div2 {
   width: 37px;
   aspect-ratio: 1;
   background: url(/images/cta-icons.png?66ce11d0fe1c08d1276451a49fdd1bb9) -37px 0;
-}
-
-.details-banner .container .section-banner #img-div2:hover {
-  background: url(/images/cta-icons.png?66ce11d0fe1c08d1276451a49fdd1bb9) -37px -37px;
 }
 
 .details-banner .container .section-banner #img-div3 {
@@ -354,18 +371,10 @@ li {
   background: url(/images/cta-icons.png?66ce11d0fe1c08d1276451a49fdd1bb9) -74px 0;
 }
 
-.details-banner .container .section-banner #img-div3:hover {
-  background: url(/images/cta-icons.png?66ce11d0fe1c08d1276451a49fdd1bb9) -74px -37px;
-}
-
 .details-banner .container .section-banner #img-div4 {
   width: 37px;
   aspect-ratio: 1;
   background: url(/images/cta-icons.png?66ce11d0fe1c08d1276451a49fdd1bb9) -111px 0;
-}
-
-.details-banner .container .section-banner #img-div4:hover {
-  background: url(/images/cta-icons.png?66ce11d0fe1c08d1276451a49fdd1bb9) -111px -37px;
 }
 
 * {

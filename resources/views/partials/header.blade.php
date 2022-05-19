@@ -1,6 +1,6 @@
 <div class="ct-header">
     <div class="container">
-        <img src="assets/images/dc-logo.png" alt="">
+        <a class='dc-logo ' href="/"><img src="/assets/images/dc-logo.png" alt="Dc logo"></a>
         <div class='ct-link'>
             <a href="#">CHARATCTERS</a>
         </div>

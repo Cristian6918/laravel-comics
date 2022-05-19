@@ -50,19 +50,19 @@
         <button class="sign-up-button">SIGN-UP NOW!</button>
         <a href="#" class="follow">FOLLOW US</a>
         <a>
-            <img src="assets/images/footer-facebook.png" alt="facebook">
+            <img src="/assets/images/footer-facebook.png" alt="facebook">
         </a>
         <a>
-            <img src="assets/images/footer-twitter.png" alt="twitter">
+            <img src="/assets/images/footer-twitter.png" alt="twitter">
         </a>
         <a>
-            <img src="assets/images/footer-youtube.png" alt="youtube">
+            <img src="/assets/images/footer-youtube.png" alt="youtube">
         </a>
         <a>
-            <img src="assets/images/footer-pinterest.png" alt="pinterest">
+            <img src="/assets/images/footer-pinterest.png" alt="pinterest">
         </a>
         <a>
-            <img src="assets/images/footer-periscope.png" alt="periscope">
+            <img src="/assets/images/footer-periscope.png" alt="periscope">
         </a>
     </div>
 </div>

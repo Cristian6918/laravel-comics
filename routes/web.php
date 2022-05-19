@@ -17,10 +17,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $comics = config("comics");
-    return view('home', compact("comics"));
+    return view('home', ['comics' => $comics]);
 });
 
-Route::get('/details', function () {
+Route::get('/details/{id}', function ($id) {
     $comics = config("comics");
-    return view('details', compact("comics"));
+    return view('details', ['comics' => $comics[$id]]);
 });
